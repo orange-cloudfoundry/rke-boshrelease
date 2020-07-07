@@ -157,7 +157,7 @@ private_registries: []
 # To disable ingress controller, set `provider: none`
 # `node_selector` controls ingress placement and is optional
 ingress:
-  provider: nginx
+  provider: "<%= p('rke.ingress.provider') %>"
   node_selector:
     app: ingress
 cluster_name: "<%= p('rke.cluster_name') %>"
