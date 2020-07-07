@@ -1,0 +1,31 @@
+name: rke
+version: "5"
+commit_hash: e348be5
+uncommitted_changes: false
+jobs:
+- name: management
+  version: a0fcd6570fcaad8b8a87bcb85e9721f3e3a9fb0acfe32e9a4db13f74fc9669d3
+  fingerprint: a0fcd6570fcaad8b8a87bcb85e9721f3e3a9fb0acfe32e9a4db13f74fc9669d3
+  sha1: sha256:d12233ffb42f80b79671511e283dee85944457efcc9f768c1130cd8b8a78ad94
+  packages:
+  - rke
+- name: master
+  version: 485bd5890a3e3cf16f200b4f715feacc8e7218d12d87c45cad1d6ed834cd70cb
+  fingerprint: 485bd5890a3e3cf16f200b4f715feacc8e7218d12d87c45cad1d6ed834cd70cb
+  sha1: sha256:58badd5c025ec2a91525e5b1a59ae8dc0b89376eb5fc5527d2e1b980cdea07b5
+  packages: []
+- name: worker
+  version: 5656e5d4136ae35c2381014d963ac7edfd3eebad23c296ecd8ae939940306f1b
+  fingerprint: 5656e5d4136ae35c2381014d963ac7edfd3eebad23c296ecd8ae939940306f1b
+  sha1: sha256:5d95dd77f905c299384c76f6104248f7c64761480469d3e056f4fbe0f08f3296
+  packages: []
+packages:
+- name: rke
+  version: 78beacdefaf5b7816c0f90e87dfef356db6b20403736234a6787292b8661bf9e
+  fingerprint: 78beacdefaf5b7816c0f90e87dfef356db6b20403736234a6787292b8661bf9e
+  sha1: sha256:f3efa1b2714d1d9ae1fa5dcbd9bc4ea08416df9eea75afc41fb748bded849fb8
+  dependencies: []
+license:
+  version: cf0ca1fe65dee9607c7bb9460a3f20835e582cbb7f5b2c3625fba2e21d7e91b9
+  fingerprint: cf0ca1fe65dee9607c7bb9460a3f20835e582cbb7f5b2c3625fba2e21d7e91b9
+  sha1: sha256:24269d11ac84ebafe783ff347639abe1b63027b1ef239d918af9f63e715dc0fc
